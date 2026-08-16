@@ -1,4 +1,4 @@
-# Tiếng Việt — AI-Assisted Vietnamese Practice
+# 🇻🇳 Tiếng Việt — AI-Assisted Vietnamese Practice
 
 A set of [agent skills](https://opencode.ai) for practicing Vietnamese through
 writing, tone families, and real content. Write a sentence, get told what you got
@@ -13,21 +13,30 @@ Built by a learner, for learners.
 | **tone-family** | `/tone-family <word>` | All tonal variants of a syllable with corpus-based frequency ranking. Quiz mode: `/tone-family-quiz <word>` |
 | **song-lyrics** | Paste a lyric or transcript from the song you're listening to | Word-by-word breakdown, grammar explanations from the lyrics, comprehension questions |
 
+### Example
+
+The polish skill checks your sentence, then shows how a native would say it:
+
+> You: *Em rất vui khi anh gọi cho em.*
+> Fix: **gọi** alone = to call (a name/summon); calling *on the phone* is **gọi điện**.
+> → *Em rất vui khi anh gọi điện cho em.* — I'm happy when you call me.
+
 ## Install
 
-1. Clone the repo:
-   ```
-   git clone https://github.com/GuilhermeCampano/tieng-viet.git
-   ```
+One command, works with 30+ skill-capable agents:
 
-2. Register the skills with your agent (opencode, Claude Code, etc.):
-   ```
-   opencode skill add ./tieng-viet/.agents/skills/vietnamese-polish
-   opencode skill add ./tieng-viet/.agents/skills/tone-family
-   opencode skill add ./tieng-viet/.agents/skills/song-lyrics
-   ```
+```
+npx skills add GuilhermeCampano/tieng-viet
+```
 
-   Or if your agent auto-discovers skills from `.agents/skills/`, just open the repo.
+Or per agent:
+
+| Agent | How |
+|-------|-----|
+| opencode | `opencode skill add ./tieng-viet/.agents/skills/<name>` |
+| Claude Code / Codex / Gemini | clone the repo — `AGENTS.md` auto-loads, skills are in `.agents/skills/` |
+| Cursor | copy `.cursor/rules/tieng-viet.mdc` from the repo |
+| Copilot | `.github/copilot-instructions.md` is read automatically |
 
 A skill is a single `SKILL.md` file with `name` and `description` frontmatter:
 
@@ -77,11 +86,9 @@ tieng-viet/
 ├── grammar/            Grammar reference (particles, classifiers, tense-aspect…)
 │                       — shared by all skills
 ├── tone-families.md    Tone family database with frequency rankings
-├── lessons/            Study materials and flashcards
-└── .agents/skills/
-    ├── vietnamese-polish/SKILL.md
-    ├── tone-family/SKILL.md
-    └── song-lyrics/SKILL.md
+├── .agents/skills/     The three skills (vietnamese-polish, tone-family, song-lyrics)
+├── .cursor/rules/      Cursor pointer file
+└── .github/            Copilot instructions
 ```
 
 ## Resources
@@ -95,3 +102,8 @@ Skills check words against reliable sources, not guesses:
 ## License
 
 MIT
+
+---
+
+Maintained by a learner, for learners. Issues and suggestions welcome — open an
+issue or a PR with a new tone family, grammar note, or example.
