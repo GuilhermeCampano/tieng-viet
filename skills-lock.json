@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "vietnamese-polish": {
+      "source": ".",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/vietnamese-polish/SKILL.md"
+    },
+    "tone-family": {
+      "source": ".",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/tone-family/SKILL.md"
+    },
+    "song-lyrics": {
+      "source": ".",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/song-lyrics/SKILL.md"
+    }
+  }
+}
