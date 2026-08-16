@@ -44,7 +44,7 @@ turning passive listening into active learning.
 
 1. Clone the repo:
    ```
-   git clone https://github.com/your-username/tieng-viet.git
+   git clone https://github.com/GuilhermeCampano/tieng-viet.git
    ```
 
 2. Register the skills with your agent (opencode, Claude Code, etc.):
