@@ -23,6 +23,9 @@ comprehension with questions.
 4. **Diacritics mandatory.** Never output Vietnamese without tone marks.
 5. **Source reliability** — check VDict / Wiktionary / SEAlang when unsure of a
    word or usage. Flag uncertainty with "Không chắc".
+6. **Second pass** — before replying, verify your own breakdown for
+   misinterpretations, wrong meanings, or shaky grammar. Fix errors, flag
+   anything still uncertain.
 
 ## Output Format
 
@@ -32,26 +35,42 @@ Run in this order:
 The complete lyric/transcript in Vietnamese, line by line.
 
 ### 2. Line-by-line breakdown
-For each line, a table:
+Group lines into sections (**Verse 1, Pre-chorus, Chorus, Bridge…**) — but only
+when you can actually identify them from the structure (e.g. a line that
+repeats = chorus). If you can't tell, don't label sections and don't guess.
 
-| Word | Type | Meaning |
-|------|------|---------|
-| Tôi  | pron | I/me |
-| yêu  | verb | to love |
-| em   | pron | you (younger/junior) |
+For each section:
+1. One gloss table covering the section's key words (don't skip any word the
+   user might not know):
 
-Followed by the full line translation in English.
+   | Word | Type | Meaning |
+   |------|------|---------|
+   | Tôi  | pron | I/me |
+   | yêu  | verb | to love |
+   | em   | pron | you (younger/junior) |
 
-If a line has an interesting grammar point, add a one-line note:
-"**Grammar:** yêu doesn't take a classifier — direct object."
+2. Then the section's Vietnamese lines together, each followed by its English
+   translation on the same block (verse-then-translation, not scattered line by
+   line):
+
+   > *Chỉ thương mẹ em mất công.* — I just feel bad that your mom went to the trouble.
+   > *Rằng anh cũng muốn xây lâu đài.* — I also want to build a castle.
+
+3. Optional 🎯 notes: call out puns, double meanings, or wordplay. Never force one per section.
+
+   Example:
+   > 🎯 **The pun**: `lâu đài` (castle) ≈ `lâu dài` (long-term) — commitment vs. short-term rental.
+
+4. If a line has an interesting grammar point, add a one-line note:
+   "**Grammar:** yêu doesn't take a classifier — direct object."
 
 ### 3. Key vocabulary
 Pull out the most useful words (5–10) into a mini table:
 
-| Word | Meaning | Worth remembering? |
-|------|---------|--------------------|
-| yêu  | to love | Yes — core verb |
-| nỗi nhớ | nostalgia/longing | Yes — common in songs |
+| Word | Meaning |
+|------|---------|
+| yêu  | to love |
+| nỗi nhớ | nostalgia/longing |
 
 ### 4. Grammar notes (if the lyric warrants it)
 For each grammar point spotted in the lyrics, a short note with:
@@ -81,6 +100,55 @@ Give answers after the questions, each one short (1 line).
 
 ### 6. One-line takeaway
 A reusable pattern the user just learned from this lyric.
+
+### 7. Second pass — verify
+After finishing the breakdown, re-read your own output once before sending:
+- Confirm no misinterpreted words, wrongly explained grammar, or invented
+  meanings (especially rare words and auto-caption transcript fixes).
+- Re-check any transcript cleanup you did (added/moved words) against the
+  likely real lyric.
+- If anything is uncertain, flag it with "Không chắc" and cite the source
+  checked. Fix errors silently (don't announce every fix).
+
+## Reference Example
+
+Condensed from the breakdown of "Chuyện Dở Dang" by Ngọt — the shape to match.
+Paste the real lyric yourself; this is the skeleton, not the content.
+
+**Header:** name the song, flag any transcript cleanup and artist doubts.
+
+**Verse 1 — lead with the song's core word**
+| Word | Type | Meaning |
+|------|------|---------|
+| câu chuyện | noun | the story |
+| suýt | adv | almost (the keyword!) |
+| bắt tay | verb | to set out (lit. join hands) |
+
+> *Câu chuyện nghe suýt hay.* — The story sounds almost good.
+
+**Chorus**
+| Word | Type | Meaning |
+|------|------|---------|
+| không lẽ | phrase | surely not… |
+| nàng | pron | she (poetic) |
+| dở dang | adj | unfinished |
+
+> *Nàng có tôi, mà tôi thì không có nàng.* — She has me, but I don't have her.
+
+> 🎯 **The pun**: `lâu đài` (castle) ≈ `lâu dài` (long-term) — commitment vs. short-term rental.
+
+**Key vocabulary**
+| Word | Meaning |
+|------|---------|
+| suýt | almost / nearly |
+| cứ | to keep (on) doing |
+| dở dang | unfinished (romance) |
+
+**Grammar notes** — 3–4 max, each: rule + how it appears + one more example + link.
+
+**Comprehension questions** — 5 max, with one-line answers after.
+
+**One-line takeaway** — one reusable pattern from the lyric.
 
 ## Shared Resources
 

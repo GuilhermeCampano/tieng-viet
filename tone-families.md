@@ -43,3 +43,14 @@ Frequency ratings: **common** / **uncommon** / **rare**, based on corpus frequen
 | cấn  | sắc (â)      | to be wedged/trapped; to bump against | Cái gì đó cấn ở lưng tôi. — Something's pressing on my back. | uncommon |
 | cản  | hỏi          | to block, to obstruct | Xin đừng cản đường! — Please don't block the way! | uncommon |
 | căn  | ngang (â)    | root (Hán-Việt 根); room | căn phòng — room | common |
+
+## ga / gà / gá / gả / gã / gạ
+
+| Word | Tone | Meaning | Example | Frequency |
+|------|------|---------|---------|-----------|
+| ga   | ngang       | gas; (railway) station | Vợ em đang chiên gà trên bếp ga. — My wife is frying chicken on the gas stove. | common |
+| gà   | huyền       | chicken; (fig.) to have someone at a disadvantage | Con gà gáy sáng. — The rooster crows at dawn. | common |
+| gá   | sắc         | to set (a gem); to attach; to wager (Hán-Việt 假) | Viên kim cương được gá trên nhẫn. — The diamond is set on the ring. | rare |
+| gả   | hỏi         | to marry off (a daughter) | Ông ấy gả con gái cho người giàu. — He married his daughter off to a rich man. | uncommon |
+| gã   | ngã         | fellow, guy (often dismissive) | Gã đó hay nói dối. — That guy often lies. | common |
+| gạ   | nặng        | to coax, wheedle, persuade | Đừng gạ tôi mua hàng. — Don't coax me into buying. | uncommon |
