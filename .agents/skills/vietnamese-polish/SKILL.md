@@ -85,7 +85,7 @@ User: "em dẩy ghế sô pha ra làm sao?" (meant: a kid moved a heavy sofa —
 ## Shared Resources
 
 - `grammar/` — grammar reference files (particles, classifiers, tense-aspect, etc.). Reference these when explaining a rule.
-- `tone-families.md` — same-syllable-different-tone word families. Reference when a correction involves tone confusion.
+- `.agents/skills/tone-family/tone-families.md` — same-syllable-different-tone word families. Reference when a correction involves tone confusion.
 
 ## Response Style
 

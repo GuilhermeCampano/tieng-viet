@@ -20,9 +20,10 @@ family, ranks by usefulness, and drills the learner.
 2. **Rank by frequency.** Not all members are worth memorizing. Use corpus data
    (see sources below) to mark each member `common` / `uncommon` / `rare`.
 3. **Every member gets an example.** One sentence each, with English translation.
-4. **Add to tone-families.md.** When a family is looked up that isn't in the file,
-   add a `##` section with the full table. If it exists, read from the file and
-   supplement with any missing members.
+4. **Add to the family database.** When a family is looked up that isn't in the
+   database (`tone-families.md`, in this skill's directory), add a `##` section
+   with the full table. If it exists, read from the file and supplement with any
+   missing members.
 
 ## Frequency Sources (prefer these)
 
@@ -44,8 +45,8 @@ When unsure between two ratings, lean conservative (mark it lower). Flag uncerta
 
 ### `/tone-family <word>` — Lookup
 
-Look up the tone family in `tone-families.md`. If not found, generate from
-sources and append to the file.
+Look up the tone family in `tone-families.md` (this skill's directory). If not
+found, generate from sources and append to the file.
 
 Output:
 
@@ -80,11 +81,12 @@ family table.
 2. Key takeaway (one line).
 3. Tone confusion note (Portuguese-specific).
 4. Offer quiz.
-5. If new family: append to `tone-families.md`.
+5. If new family: append to `tone-families.md` in this skill's directory.
 
 ## Shared Resources
 
-- `tone-families.md` — family database. Read from here, write new families here.
+- `tone-families.md` — family database, next to this file. Read from here,
+  write new families here.
 - `grammar/` — reference for explaining tone rules and Hán-Việt etymologies.
 
 ## Response Style
@@ -94,3 +96,6 @@ family table.
 - English for all explanation text; Vietnamese only in examples.
 - Frequency ratings always cited by corpus, not vibes.
 - Tone names: use Vietnamese names (huyền, sắc, hỏi, ngã, nặng, ngang / mid-level).
+
+Base directory for this skill: `.agents/skills/tone-family` — the family
+database `tone-families.md` lives here, next to this file.

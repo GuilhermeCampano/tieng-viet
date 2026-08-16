@@ -1,6 +1,6 @@
 ---
 description: Tiếng Việt — Vietnamese tutoring skills (polish, tone-family, song-lyrics)
-globs: "*.md, tone-families.md, grammar/**/*.md"
+globs: "*.md, **/tone-families.md, grammar/**/*.md"
 alwaysApply: true
 ---
 

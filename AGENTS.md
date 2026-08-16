@@ -7,9 +7,10 @@ Vietnamese learning workspace. All grammar explanations and tutor responses are 
 
 ## Files & Conventions
 
-- `tone-families.md` — same-syllable-different-tone word families. One `##`
-  section per family, markdown table inside. Frequency column rates each word
-  `common` / `uncommon` / `rare` (based on corpus frequency, e.g. Subtlex-VN).
+- `.agents/skills/tone-family/tone-families.md` — same-syllable-different-tone
+  word families. One `##` section per family, markdown table inside. Frequency
+  column rates each word `common` / `uncommon` / `rare` (based on corpus
+  frequency, e.g. Subtlex-VN).
 - `grammar/*.md` — one topic per file (particles, classifiers, tense-aspect…).
   Shared data files referenced by all skills.
 - `.agents/skills/*/SKILL.md` — full specs for the skills below.
@@ -28,9 +29,10 @@ workflow before using the skill.
 
 - **tone-family** — lookup tone families and quiz.
   Trigger: "/tone-family <word>" or "tone family of X".
-  Rules: read `tone-families.md` for the family; show all tonal variants with
-  frequency ranking (common/uncommon/rare) and examples; generate quiz drills
-  when asked. Full spec: `.agents/skills/tone-family/SKILL.md`.
+  Rules: read `.agents/skills/tone-family/tone-families.md` for the family;
+  show all tonal variants with frequency ranking (common/uncommon/rare) and
+  examples; generate quiz drills when asked. Full spec:
+  `.agents/skills/tone-family/SKILL.md`.
 
 - **song-lyrics** — breakdown a pasted lyric/transcript.
   Trigger: the user pastes song lyrics or a transcript.

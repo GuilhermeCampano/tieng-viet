@@ -85,8 +85,9 @@ questions — turning passive listening into active learning.
 tieng-viet/
 ├── grammar/            Grammar reference (particles, classifiers, tense-aspect…)
 │                       — shared by all skills
-├── tone-families.md    Tone family database with frequency rankings
 ├── .agents/skills/     The three skills (vietnamese-polish, tone-family, song-lyrics)
+│   └── tone-family/
+│       └── tone-families.md    Tone family database with frequency rankings
 ├── .cursor/rules/      Cursor pointer file
 └── .github/            Copilot instructions
 ```

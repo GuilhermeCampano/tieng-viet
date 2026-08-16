@@ -154,7 +154,7 @@ Paste the real lyric yourself; this is the skeleton, not the content.
 
 - `grammar/` — grammar reference files. Link to these when a lyric uses a
   grammatical pattern covered there.
-- `tone-families.md` — reference when a lyric word is part of a tone family.
+- `.agents/skills/tone-family/tone-families.md` — reference when a lyric word is part of a tone family.
 
 ## Response Style
 
