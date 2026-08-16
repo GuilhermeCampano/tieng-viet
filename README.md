@@ -19,9 +19,9 @@ native-level feedback.
 
 ### Why write, not just read?
 
-Vietnamese is tonal. The difference between *cần* (need) and *cấn* (wedged) is one
-diacritic. Reading recognizes the word — writing recalls it. Producing a sentence
-from memory forces you to get the tones right.
+Vietnamese is tonal. The difference between *la* (shout), *là* (to be), *lá* (leaf),
+and *lạ* (strange) is one diacritic. Reading recognizes the word — writing recalls it.
+Producing a sentence from memory forces you to get the tones right.
 
 ### Why AI feedback?
 
@@ -30,7 +30,7 @@ corrects you instantly, every sentence, as many times as you want.
 
 ### Why tone families?
 
-Learning *cần* alone is fragile. Learning *cần / cấn / cản / căn* together
+Learning *là* alone is fragile. Learning *la / là / lá / lả / lã / lạ* together
 makes the tones stick — because you see the contrast. Each family comes with
 corpus-based frequency so you know which ones matter.
 

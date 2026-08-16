@@ -24,6 +24,17 @@ Frequency ratings: **common** / **uncommon** / **rare**, based on corpus frequen
 | đất  | sắc (đât, â) | land, soil, earth | đất nước — country | common |
 | đạt  | nặng (đat, long) | to reach, achieve — Hán-Việt 達 | đạt được — to achieve | common |
 
+## la / là / lá / lả / lã / lạ
+
+| Word | Tone | Meaning | Example | Frequency |
+|------|------|---------|---------|-----------|
+| la   | ngang       | to shout, yell, scold | Mẹ la con vì không học bài. — Mom scolds the kid for not studying. | common |
+| là   | huyền       | to be (copula) | Tôi là người Brasil. — I'm Brazilian. | common |
+| lá   | sắc         | leaf; sheet (of paper) | Lá cây màu xanh. — The leaf is green. | common |
+| lả   | hỏi         | tired, weak, limp | Chạy xong mệt lả người. — Exhausted after running. | uncommon |
+| lã   | ngã         | fine silk, gauze; interest (finance) | Lụa là / lãi suất — silk / interest rate | uncommon |
+| lạ   | nặng        | strange, unfamiliar, unusual | Món này lạ quá! — This dish is so unusual! | common |
+
 ## cần / cấn / cản / căn
 
 | Word | Tone | Meaning | Example | Frequency |
