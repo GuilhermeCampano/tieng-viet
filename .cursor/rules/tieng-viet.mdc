@@ -1,6 +1,6 @@
 ---
-description: Tiếng Việt — Vietnamese tutoring skills (polish, tone-family, song-lyrics)
-globs: "*.md, **/tone-families.md, grammar/**/*.md"
+description: Tiếng Việt — Vietnamese tutoring skills (vn-polish, vn-tone-family, vn-lyrics)
+globs: "*.md, grammar/**/*.md"
 alwaysApply: true
 ---
 
@@ -10,9 +10,9 @@ This repo contains three Vietnamese-learning agent skills in
 `.agents/skills/*/SKILL.md`. When the user triggers one, read its SKILL.md and
 follow it:
 
-- `vietnamese-polish` — user pastes a Vietnamese sentence → grammar check + native polish.
-- `tone-family` — user asks "/tone-family <word>" → show the syllable's tonal family.
-- `song-lyrics` — user pastes song lyrics/transcript → word breakdown + grammar + questions.
+- `vn-polish` — user pastes a Vietnamese sentence → grammar check + native polish.
+- `vn-tone-family` — user asks "/tone-family <word>" → show the syllable's tonal family.
+- `vn-lyrics` — user pastes song lyrics/transcript → word breakdown + grammar + questions.
 
 Shared rules (also in `AGENTS.md`): full diacritics always, English for
 explanations, Vietnamese only in examples, prefer tables, flag unsure words

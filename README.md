@@ -1,25 +1,42 @@
 # 🇻🇳 Tiếng Việt — AI-Assisted Vietnamese Practice
 
-A set of [agent skills](https://opencode.ai) for practicing Vietnamese through
-writing, tone families, and real content. Write a sentence, get told what you got
-right and how to sound more natural. Look up tones. Learn from songs.
+Three agent skills for practicing Vietnamese through writing, tone families, and real content. Write a sentence, get told what you got right and how to sound more natural. Look up tones. Learn from songs.
 Built by a learner, for learners.
 
 ## Skills
 
 | Skill | How you use it | What it does |
 |-------|----------------|--------------|
-| **vietnamese-polish** | Write a sentence first, then ask the skill to check it | Feedback on *your* sentence: what you got right, what to fix, and how a native would say it — with multiple natural alternatives |
-| **tone-family** | `/tone-family <word>` | All tonal variants of a syllable with corpus-based frequency ranking. Quiz mode: `/tone-family-quiz <word>` |
-| **song-lyrics** | Paste a lyric or transcript from the song you're listening to | Word-by-word breakdown, grammar explanations from the lyrics, comprehension questions |
+| **vn-polish** | Write a sentence first, then ask the skill to check it | Feedback on *your* sentence: what you got right, what to fix, and how a native would say it — with multiple natural alternatives |
+| **vn-tone-family** | `/tone-family <word>` | All tonal variants of a syllable with corpus-based frequency ranking. Quiz mode: `/tone-family-quiz <word>` |
+| **vn-lyrics** | Paste a lyric or transcript from the song you're listening to | Word-by-word breakdown, grammar explanations from the lyrics, comprehension questions |
 
-### Example
+### Examples
 
-The polish skill checks your sentence, then shows how a native would say it:
+**vn-polish** — checks your sentence and shows how a native would say it:
 
 > You: *Em rất vui khi anh gọi cho em.*
-> Fix: **gọi** alone = to call (a name/summon); calling *on the phone* is **gọi điện**.
-> → *Em rất vui khi anh gọi điện cho em.* — I'm happy when you call me.
+> Fix: **gọi** alone = to call out; calling on the phone is **gọi điện**.
+> ✅ *Em rất vui khi anh gọi điện cho em.* — I'm happy when you call me.
+
+**vn-tone-family** — all tonal variants of a syllable, ranked by frequency:
+
+| Word | Tone | Meaning | Frequency |
+|------|------|---------|-----------|
+| ma   | ngang | ghost | common |
+| mà   | huyền | but / yet | common |
+| má   | sắc   | mom (Southern) | common |
+| mã   | ngã   | horse; code | common |
+| mả   | hỏi   | grave, tomb | uncommon |
+| mạ   | nặng  | rice seedling | uncommon |
+
+**vn-lyrics** — paste any lyric, get a word-by-word breakdown, grammar notes, and comprehension questions:
+
+> *Tôi có lòng nào ông hãy xáo măng.*
+> — If I have any ill intent, then cook me with bamboo shoots.
+> Grammar: `hãy` before a verb = polite imperative; `có … nào` = literary conditional.
+
+→ See [`examples/`](examples/) for full skill output samples.
 
 ## Install
 
@@ -42,7 +59,7 @@ A skill is a single `SKILL.md` file with `name` and `description` frontmatter:
 
 ```yaml
 ---
-name: song-lyrics
+name: vn-lyrics
 description: Paste a Vietnamese lyric and get a word breakdown, grammar, and questions.
 ---
 ```
@@ -75,7 +92,7 @@ ones actually matter.
 
 ### Why songs
 
-Song lyrics are real Vietnamese with real grammar. The song-lyrics skill breaks
+Song lyrics are real Vietnamese with real grammar. the vn-lyrics skill breaks
 down every line, explains the grammar in context, and asks comprehension
 questions — turning passive listening into active learning.
 
@@ -84,10 +101,7 @@ questions — turning passive listening into active learning.
 ```
 tieng-viet/
 ├── grammar/            Grammar reference (particles, classifiers, tense-aspect…)
-│                       — shared by all skills
-├── .agents/skills/     The three skills (vietnamese-polish, tone-family, song-lyrics)
-│   └── tone-family/
-│       └── tone-families.md    Tone family database with frequency rankings
+├── .agents/skills/     The three skills (vn-polish, vn-tone-family, vn-lyrics)
 ├── .cursor/rules/      Cursor pointer file
 └── .github/            Copilot instructions
 ```

@@ -3,16 +3,15 @@
 This repo ships three agent skills. When the user triggers one, read the
 referenced `SKILL.md` and follow its full workflow.
 
-- **vietnamese-polish** — user pastes a Vietnamese sentence and wants it
+- **vn-polish** — user pastes a Vietnamese sentence and wants it
   checked/corrected. Grammar check + natural polish, multiple native
-  alternatives. Spec: `.agents/skills/vietnamese-polish/SKILL.md`
-- **tone-family** — user asks `/tone-family <word>` or "tone family of X".
-  Show all tonal variants with frequency ranking from
-  `.agents/skills/tone-family/tone-families.md`, plus quiz drills when asked.
-  Spec: `.agents/skills/tone-family/SKILL.md`
-- **song-lyrics** — user pastes song lyrics or a transcript. Word-by-word
+  alternatives. Spec: `.agents/skills/vn-polish/SKILL.md`
+- **vn-tone-family** — user asks `/tone-family <word>` or "tone family of X".
+  Generate all tonal variants with frequency ranking, plus quiz drills when asked.
+  Spec: `.agents/skills/vn-tone-family/SKILL.md`
+- **vn-lyrics** — user pastes song lyrics or a transcript. Word-by-word
   breakdown, grammar notes, comprehension questions. Spec:
-  `.agents/skills/song-lyrics/SKILL.md`
+  `.agents/skills/vn-lyrics/SKILL.md`
 
 Shared rules (see `AGENTS.md`): every Vietnamese word with full diacritics;
 English for explanation text, Vietnamese only in examples; prefer tables over
